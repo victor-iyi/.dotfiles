@@ -97,5 +97,5 @@ These images are included under the "fair usage" laws.
 - [Fireship.io]
 - [eieio.xyz]
 
-[Fireship.io]: [https://fireship.io]
-[eieio.xyz]: [https://eieio.xzy]
+[Fireship.io]: https://fireship.io
+[eieio.xyz]: https://eieio.xzy

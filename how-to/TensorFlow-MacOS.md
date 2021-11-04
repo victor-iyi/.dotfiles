@@ -100,3 +100,10 @@ otherwise you will get errors like: "not supported wheel on this platform"
 python -m pip install tensorflow-metal
 ```
 
+**NOTE:** Run `conda deactivate` to deactivate the environment and
+`conda activate` to activat the environement.
+
+For more info on how to use `conda`, see the `conda`'s [command reference] to
+view various commands for managing packages and environments.
+
+[command reference]: https://docs.conda.io/projects/conda/en/latest/commands.html

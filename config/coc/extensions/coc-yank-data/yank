@@ -887,3 +887,45 @@ a0c00e53111730fd76b6e045bf7cdf85|file:///Users/victor/.dotfiles/install.sh|3|1|V
 	ln -s config/ ~/.config 
 919c8b643b7133116b02fc0d9bb7df3f|file:///Users/victor/.dotfiles/install.sh|3|14|v|sh
 	original
+aef5d2bd1f1889331f4a276e52f0ac0a|file:///Users/victor/.dotfiles/README.md|12|1|V|markdown
+	This repo contains my global configurations.
+c40a5ebe477f3d2fa3cbfff703c94ee9|file:///Users/victor/.dotfiles/install.sh|6|1|V|sh
+	# ZSH
+	ln -s ~/dotfiles/zsh/.zshenv ~/.zshenv
+	ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
+	ln -s ~/dotfiles/zsh/.zprofile ~/.zprofile
+	
+	# Config
+	ln -s ~/dotfiles/config ~/.config
+78764efd8d456b525d638c7a7743d9fa|file:///Users/victor/.dotfiles/README.md|73|1|V|markdown
+	## Contributio
+6aab9eb8f32e566dfa41cbd48f53c80d|file:///Users/victor/.dotfiles/README.md|77|79|v|markdown
+	sage
+ebe73184273be0b8c20b0a83c9c31d1b|file:///Users/victor/.dotfiles/README.md|79|41|v|markdown
+	(https://github.com/victor-iyi/sage/issues)
+1064836f675f4674a72919f000475583|file:///Users/victor/.dotfiles/README.md|73|23|v|markdown
+	https://dotfiles.github.io
+5e46d00d1629529adbfa1f33140de0c8|file:///Users/victor/.dotfiles/README.md|74|2|v|markdown
+	Dotfiles 
+57457f388f11cc2bc2eb1803f4063965|file:///Users/victor/.dotfiles/README.md|74|2|v|markdown
+	from 
+50196f3a2993cc75aaf3dbc125407758|file:///Users/victor/.dotfiles/README.md|74|2|v|markdown
+	Start 
+a20ddccbb6f808ec42cd66323e6c6061|file:///Users/victor/.dotfiles/README.md|74|2|v|markdown
+	Finish
+c3ae06f70363066574dc6f52338df7f5|file:///Users/victor/.dotfiles/README.md|74|2|v|markdown
+	dotfiles
+c6196bc349d59a318e13daae68844e7a|file:///Users/victor/.dotfiles/README.md|103|1|V|markdown
+	=======
+	[Fireship.io][https://fireship.io]
+	[eieio.xyz][https://eieio.xzy]
+	>>>>>>> 1d6e8dea4493c3aff7569694f850792d4e393eb4
+697dfb9b235783676b63d2f1ed07cad5|file:///Users/victor/.dotfiles/README.md|100|1|V|markdown
+	<<<<<<< HEAD
+62f198bd3bb8c8b2e08790654468d02a|file:///Users/victor/.dotfiles/README.md|103|1|V|markdown
+	=======
+	[Fireship.io]: [https://fireship.io]
+	[eieio.xyz]: [https://eieio.xzy]
+	>>>>>>> b60c7074d1cd39fc2a7ff4af7e50e232ec6339f9
+0eb05a2f5e4a150ab515a1965db9953d|file:///Users/victor/.dotfiles/README.md|101|111|v|markdown
+	https://eieio.xzy

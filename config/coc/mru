@@ -1,7 +1,13 @@
+/Users/victor/.dotfiles/README.md
 /Users/victor/.dotfiles/.gitignore
+/Users/victor/.dotfiles/config/coc/memos.json
+/Users/victor/.dotfiles/config/coc/list-outline-history.json
+/Users/victor/.dotfiles/config/coc/list-location-history.json
+/Users/victor/.dotfiles/config/coc/extensions/.gitignore
+/Users/victor/.dotfiles/config/coc/extensions/package.json
+/Users/victor/.dotfiles/config/coc/extensions/db.json
 /Users/victor/.dotfiles/install.sh
 /Users/victor/.zshrc
-/Users/victor/.dotfiles/README.md
 /Users/victor/.dotfiles/Brewfile
 /Users/victor/.dotfiles/ini
 /Users/victor/dev/lotlinx-ml-models/template/src/analysis/inference.py

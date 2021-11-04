@@ -4,6 +4,9 @@
 node_modules
 venv
 
+# Untracked files
+config/coc/
+
 # Submodules
 config/nvim/.git
 config/rustfmt/.git

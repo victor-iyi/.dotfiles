@@ -98,4 +98,4 @@ These images are included under the "fair usage" laws.
 - [eieio.xyz]
 
 [Fireship.io]: https://fireship.io
-[eieio.xyz]: https://eieio.xzy
+[eieio.xyz]: https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276

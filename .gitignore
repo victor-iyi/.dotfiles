@@ -1,2 +1,10 @@
 
 .DS_Store
+
+node_modules
+venv
+
+# Submodules
+config/nvim/.git
+config/rustfmt/.git
+config/alacritty/.git

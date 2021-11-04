@@ -4,7 +4,7 @@
 # ln path/to/file_or_dir/ path/to/symlink
 
 # ZSH
-ln -s zsh/.zshenv ~/.zshenv
-ln -s zsh/.zshrc ~/.zshrc
-ln -s zsh/.zprofile ~/.zprofile
+ln -s ~/dotfiles/zsh/.zshenv ~/.zshenv
+ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/dotfiles/zsh/.zprofile ~/.zprofile
 

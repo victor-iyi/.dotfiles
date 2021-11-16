@@ -12,6 +12,9 @@ xcode-select --install
 1. Clone into new hidden directory
 
 ```sh
+# Change directory to the $HOME directory.
+cd $HOME
+
 # Use SSH (if set up)...
 git clone git@github.com:victor-iyi/.dotfiles.git 
 
@@ -26,12 +29,15 @@ git clone https://github.com/victor-iyi/.dotfiles.git
 # investigate install scripts and bootstrapping tools.
 
 # ZSH
-ln -s ~/dotfiles/zsh/.zshenv ~/.zshenv
-ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
-ln -s ~/dotfiles/zsh/.zprofile ~/.zprofile
+ln -s ~/.dotfiles/zsh/.zshenv ~/.zshenv
+ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
 
 # Config
-ln -s ~/dotfiles/config ~/.config
+ln -s ~/.dotfiles/config ~/.config
+
+# Utils
+ln -s ~/.dotfiles/utils/.aliases ~/.aliases
 ```
 
 1. Install Homebrew, follwed by the software listed in the `Brewfile`.

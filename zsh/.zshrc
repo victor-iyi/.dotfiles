@@ -16,6 +16,9 @@ export PATH=$PATH:$(go env GOPATH)/bin
 #
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
+# Export Starship configuration file.
+export STARSHIP_CONFIG=$HOME/.config/starship/config.toml
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

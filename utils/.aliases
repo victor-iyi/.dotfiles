@@ -32,3 +32,6 @@ alias gac="git add . & git commit -m"
 alias gc="git commit -m"
 alias amend="git add . && git commit --amend"
 alias nah="git reset --hard && git clean -df"
+
+alias cat="bat"
+alias ls="exa -l"

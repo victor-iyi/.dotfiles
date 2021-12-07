@@ -16,7 +16,7 @@ xcode-select --install
 cd $HOME
 
 # Use SSH (if set up)...
-git clone git@github.com:victor-iyi/.dotfiles.git 
+git clone git@github.com:victor-iyi/.dotfiles.git
 
 # ...or use HTTPS and switch remotes later.
 git clone https://github.com/victor-iyi/.dotfiles.git
@@ -28,16 +28,19 @@ git clone https://github.com/victor-iyi/.dotfiles.git
 # There are better and less manual ways to do this;
 # investigate install scripts and bootstrapping tools.
 
-# ZSH
+# ZSH (~/.zsh\w*|.zprofile)
 ln -s ~/.dotfiles/zsh/.zshenv ~/.zshenv
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
 
-# Config
+# Config (~/.config)
 ln -s ~/.dotfiles/config ~/.config
 
-# Utils
-ln -s ~/.dotfiles/utils/.aliases ~/.aliases
+# Home (~/.)
+ln -s ~/.dotfiles/home/.aliases ~/.aliases
+ln -s ~/.dotfiles/home/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/home/.vim ~/.vim
+ln -s ~/.dotfiles/home/.ripgreprc ~/.ripgreprc
 ```
 
 1. Install Homebrew, follwed by the software listed in the `Brewfile`.

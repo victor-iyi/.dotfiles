@@ -1,0 +1,20 @@
+[user]
+	email = javafolabi@gmail.com
+	name = Victor I. Afolabi
+	signingKey = ""
+[gpg]
+	program = gpg
+[commit]
+	gpgSign = false
+[tag]
+	forceSignAnnotated = false
+
+# Requires brew install `git-delta`.
+[pager]
+  diff = delta
+  show = delta
+  log = delta
+  blame = delta
+  reflog = delta
+[interactive]
+  diffFilter = delta --color-only

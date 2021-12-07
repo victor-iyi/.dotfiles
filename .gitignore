@@ -15,7 +15,4 @@ config/alacritty/.git
 config/gcloud
 
 # Home
-home/.vim/plugged/*
-!home/.vim/plugged/mycomment.vim
-home/.vim/sessions
-home/.vim/undodir
+home/.vim/

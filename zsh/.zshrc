@@ -189,3 +189,6 @@ if [ -f "$HOME/.bin/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/.bin/google-
 
 # The next line enables shell command completion for gcloud.
 if [ -f "$HOME/.bin/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/.bin/google-cloud-sdk/completion.zsh.inc"; fi
+
+# Starship
+eval "$(starship init zsh)"

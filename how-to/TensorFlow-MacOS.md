@@ -107,3 +107,6 @@ For more info on how to use `conda`, see the `conda`'s [command reference] to
 view various commands for managing packages and environments.
 
 [command reference]: https://docs.conda.io/projects/conda/en/latest/commands.html
+
+Check the original [Apple developers page](https://developer.apple.com/metal/tensorflow-plugin/)
+for more info.

@@ -90,7 +90,6 @@ plugins=(
   git
   alias-finder
   autopep8
-  cargo
   colorize
   command-not-found
   common-aliases
@@ -98,7 +97,6 @@ plugins=(
   git-flow
   python
   rust
-  rustup
   sublime
   themes
   virtualenv

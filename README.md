@@ -9,7 +9,7 @@ Homebrew.
 xcode-select --install
 ```
 
-1. Clone into new hidden directory
+2. Clone into new hidden directory
 
 ```sh
 # Change directory to the $HOME directory.
@@ -22,7 +22,7 @@ git clone git@github.com:victor-iyi/.dotfiles.git
 git clone https://github.com/victor-iyi/.dotfiles.git
 ```
 
-1. Create symlinks in the Home directory to the real files in the repo.
+3. Create symlinks in the Home directory to the real files in the repo.
 
 ```sh
 # There are better and less manual ways to do this;
@@ -43,7 +43,7 @@ ln -s ~/.dotfiles/home/.vim ~/.vim
 ln -s ~/.dotfiles/home/.ripgreprc ~/.ripgreprc
 ```
 
-1. Install Homebrew, follwed by the software listed in the `Brewfile`.
+4. Install Homebrew, follwed by the software listed in the `Brewfile`.
 
 To generate `Brewfile` run `brew bundle dump --describe` in the directory you
 want to save `Brewfile`.

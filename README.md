@@ -45,6 +45,9 @@ ln -s ~/.dotfiles/home/.ripgreprc ~/.ripgreprc
 
 1. Install Homebrew, follwed by the software listed in the `Brewfile`.
 
+To generate `Brewfile` run `brew bundle dump --describe` in the directory you
+want to save `Brewfile`.
+
 ```sh
 # These could also be in an install script.
 

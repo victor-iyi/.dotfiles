@@ -1,4 +1,4 @@
-" File: ~/.config/nvim/init.vim
+" File: ~/.vimrc
 "
 " Author: Victor I. Afolabi
 

@@ -8,6 +8,12 @@ export DYLD_FALLBACK_LIBRARY_PATH="$(xcode-select --print-path)/usr/lib/"
 # OR use XCode:
 export DYLD_FALLBACK_LIBRARY_PATH="$(xcode-select --print-path)/Toolchains/XcodeDefault.xctoolchain/usr/lib/"
 
+# LibTorch: PyTorch
+# export LIBTORCH="/opt/homebrew/Cellar/libtorch/1.12.1"
+
+# LD library.
+# export LD_LIBRARY_PATH=$LIBTORCH:$LD_LIBRARY_PATH
+
 # Virtualenv wrapper
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 

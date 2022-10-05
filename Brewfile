@@ -6,6 +6,8 @@ tap "homebrew/core"
 brew "antigen"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Collection of portable C++ source libraries
+brew "boost"
 # Yet another cross-platform graphical process/system monitor
 brew "bottom"
 # Programmatically minimize files to isolate features of interest
@@ -14,10 +16,20 @@ brew "delta"
 brew "exa"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
+# Distributed revision control system
+brew "git"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # Command-line tool for generating regular expressions
 brew "grex"
+# Post-modern modal text editor
+brew "helix"
+# Tensors and dynamic neural networks
+brew "libtorch"
 # Powerful, lightweight programming language
 brew "lua"
 # OpenResty's Branch of LuaJIT 2
@@ -36,12 +48,16 @@ brew "pre-commit"
 brew "procs"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Safe, concurrent, practical language
+brew "rust"
 # Intuitive find & replace CLI
 brew "sd"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Very fast implementation of tldr in Rust
 brew "tealdeer"
+# Terminal multiplexer
+brew "tmux"
 # Program that allows you to count code, quickly
 brew "tokei"
 # Display directories as trees (with optional color/HTML output)

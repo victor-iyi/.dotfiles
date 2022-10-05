@@ -13,8 +13,12 @@ export PATH=$PATH:$(go env GOPATH)/bin
 # # For system Java wrappers to find this openjdk, symlink it with:
 # sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk
 #     /Library/Java/JavaVirtualMachines/openjdk.jdk
-#
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+# PostgreSQL -- brew install libpq
+#
+# libpq for PostgreSQL
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # Export Starship configuration file.
 # export STARSHIP_CONFIG=$HOME/.config/starship/config.toml

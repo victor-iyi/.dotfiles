@@ -2,7 +2,16 @@
 source "$HOME/.cargo/env"
 
 # C++ Flags.
-export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+CPPFLAGS+="-I/opt/homebrew/opt/libpq/include"
+export CPPFLAGS
+
+# Linker Flags.
+export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
+
+# Rust flags.
+export RUSTFLAGS="/opt/homebrew/opt/libpq/include"
+
 # OS can't find libclang.dylib
 export DYLD_FALLBACK_LIBRARY_PATH="$(xcode-select --print-path)/usr/lib/"
 # OR use XCode:

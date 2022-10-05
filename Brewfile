@@ -28,6 +28,8 @@ brew "graphviz"
 brew "grex"
 # Post-modern modal text editor
 brew "helix"
+# Postgres C API library
+brew "libpq"
 # Tensors and dynamic neural networks
 brew "libtorch"
 # Powerful, lightweight programming language

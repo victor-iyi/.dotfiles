@@ -60,7 +60,7 @@ detect_extensions = []
 #
 # Note this will only work when the venv is inside the project and it will only
 # work in the directory that contains the venv dir but maybe this is ok?
-python_binary = ["./venv/bin/python", "python", "python3", "~/miniforge3/bin/python"]
+python_binary = ["./venv/bin/python", "python3", "python", "~/miniforge3/bin/python"]
 
 
 [rust]

@@ -33,5 +33,6 @@ alias gc="git commit -m"
 alias amend="git add . && git commit --amend"
 alias nah="git reset --hard && git clean -df"
 
+# Rust Kernels alternatives.
 alias cat="bat"
 alias ls="exa -l"

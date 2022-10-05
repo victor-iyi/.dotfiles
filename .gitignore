@@ -1,19 +1,21 @@
-
+# MacOS ignores.
 .DS_Store
 
+# Language ignores.
 node_modules
 venv
 
+# Home
+home/.vim/
+
+## Config
+config/memos.json
+
 # Untracked files
 config/coc/
+config/gcloud/
 
 # Submodules
 config/nvim/.git
 config/rustfmt/.git
 config/alacritty/.git
-# GCloud
-config/gcloud
-
-# Home
-home/.vim/
-config/memos.json

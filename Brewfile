@@ -44,6 +44,8 @@ brew "neovim"
 brew "opencv"
 # Development kit for the Java programming language
 brew "openjdk"
+# Python package management tool
+brew "poetry"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Modern replacement for ps written by Rust

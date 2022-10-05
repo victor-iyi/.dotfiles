@@ -16,3 +16,4 @@ config/gcloud
 
 # Home
 home/.vim/
+config/memos.json

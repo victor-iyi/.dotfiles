@@ -29,18 +29,19 @@ git clone https://github.com/victor-iyi/.dotfiles.git
 # investigate install scripts and bootstrapping tools.
 
 # ZSH (~/.zsh\w*|.zprofile)
-ln -s ~/.dotfiles/zsh/.zshenv ~/.zshenv
-ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
+$ ln -s ~/.dotfiles/zsh/.zshenv ~/.zshenv
+$ ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
+$ ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
 
 # Config (~/.config)
-ln -s ~/.dotfiles/config ~/.config
+$ ln -s ~/.dotfiles/config ~/.config
 
 # Home (~/.)
-ln -s ~/.dotfiles/home/.aliases ~/.aliases
-ln -s ~/.dotfiles/home/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/home/.vim ~/.vim
-ln -s ~/.dotfiles/home/.ripgreprc ~/.ripgreprc
+$ ln -s ~/.dotfiles/home/.aliases ~/.aliases
+$ ln -s ~/.dotfiles/home/.gitconfig ~/.gitconfig
+$ ln -s ~/.dotfiles/home/.vim ~/.vim
+$ ln -s ~/.dotfiles/home/.ripgreprc ~/.ripgreprc
+$ ln -s ~/.dotfiles/home/.p10k.zsh ~/.p10k.zsh
 ```
 
 4. Install Homebrew, follwed by the software listed in the `Brewfile`.
@@ -52,13 +53,13 @@ want to save `Brewfile`.
 # These could also be in an install script.
 
 # Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Then pass in the Brewfile location...
-brew bundle --file ~/.dotfiles/Brewfile
+$ brew bundle --file ~/.dotfiles/Brewfile
 
 # ...or  move to the directory first.
-cd ~/.dotfiles && brew  bundle
+$ cd ~/.dotfiles && brew  bundle
 ```
 
 ## TODO LIST

@@ -19,3 +19,4 @@ config/gcloud/
 config/nvim/.git
 config/rustfmt/.git
 config/alacritty/.git
+config/iterm2/

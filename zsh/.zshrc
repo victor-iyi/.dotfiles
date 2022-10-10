@@ -117,6 +117,7 @@ plugins=(
   virtualenvwrapper
   zsh-completions
   zsh-autosuggestions
+  web-search
 )
 
 # brew install antigen

@@ -30,8 +30,6 @@ brew "grex"
 brew "helix"
 # Postgres C API library
 brew "libpq"
-# Tensors and dynamic neural networks
-brew "libtorch"
 # Powerful, lightweight programming language
 brew "lua"
 # OpenResty's Branch of LuaJIT 2
@@ -50,6 +48,8 @@ brew "poetry"
 brew "pre-commit"
 # Modern replacement for ps written by Rust
 brew "procs"
+# Tensors and dynamic neural networks
+brew "pytorch"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Safe, concurrent, practical language
@@ -70,3 +70,5 @@ brew "tree"
 brew "vim"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"

@@ -42,6 +42,7 @@ $ ln -s ~/.dotfiles/home/.gitconfig ~/.gitconfig
 $ ln -s ~/.dotfiles/home/.vim ~/.vim
 $ ln -s ~/.dotfiles/home/.ripgreprc ~/.ripgreprc
 $ ln -s ~/.dotfiles/home/.p10k.zsh ~/.p10k.zsh
+$ ln -s ~/.dotfiles/home/.tmux.conf ~/.tmux.conf
 ```
 
 4. Install Homebrew, follwed by the software listed in the `Brewfile`.

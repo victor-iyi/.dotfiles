@@ -63,6 +63,17 @@ $ brew bundle --file ~/.dotfiles/Brewfile
 $ cd ~/.dotfiles && brew  bundle
 ```
 
+## Addons
+
+Other setup &/or installations.
+
+- TMUX Plugin Manager.
+
+```sh
+# TMUX Plugin Manager.
+$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 ## TODO LIST
 
 - [ ] Learn how to use [`defaults`] to record and restore Sytem Preferences and other

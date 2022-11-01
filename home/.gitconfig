@@ -2,21 +2,31 @@
 	email = javafolabi@gmail.com
 	name = Victor I. Afolabi
 	signingKey = ""
+
 [gpg]
 	program = gpg
+
 [commit]
 	gpgSign = false
+
 [tag]
 	forceSignAnnotated = false
 
-# Requires brew install `git-delta`.
-[pager]
-  diff = delta
-  show = delta
-  log = delta
-  blame = delta
-  reflog = delta
+# Requires `brew install git-delta` or `cargo install git-delta`.
 [interactive]
   diffFilter = delta --color-only
+[add.interactive]
+  useBuiltin = false  # required for git 2.37.0
+
+[delta]
+  navigate = true     # use n and N to move between diff sections
+  light = false       # set to true if you're in a terminal w/ a light background color (e.g the default macOS terminal)
+
+[merge]
+  conflictstyle = diff3
+
+[diff]
+  colorMoved = default
+
 [credential]
 	helper = store

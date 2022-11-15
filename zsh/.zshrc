@@ -143,6 +143,10 @@ antigen bundle zsh-users/zsh-completions
 # Tell antigen that you're done.
 antigen apply
 
+# ZSH shell brew completion.
+# https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh
+FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
 autoload -U compinit && compinit
 
 # REQUIRED - Use Oh-my-zsh in terminal.

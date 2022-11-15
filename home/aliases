@@ -35,4 +35,5 @@ alias nah="git reset --hard && git clean -df"
 
 # Rust Kernels alternatives.
 alias cat="bat"
+alias bathelp="bat --plain --language=help"
 alias ls="exa -lF"

@@ -1,6 +1,10 @@
 # Rust package manager - cargo
 source "$HOME/.cargo/env"
 
+# Syntax highlighting for man pages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export BAT_PAGER="less -RF"
+
 # C++ Flags.
 CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 CPPFLAGS+="-I/opt/homebrew/opt/libpq/include"

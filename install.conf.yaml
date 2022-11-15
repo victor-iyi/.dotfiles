@@ -17,7 +17,8 @@
     ~/.zprofile: zsh/zprofile
 
 - create:
+    - ~/dev/
     - ~/.vim/undodir
 
-#- shell:
-#  - [git submodule update --init --recursive, Installing submodules]
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]

@@ -149,7 +149,14 @@ autoload -U compinit && compinit
 source $ZSH/oh-my-zsh.sh
 
 # Custom aliases file - to define aliases.
-source $HOME/.aliases
+if [[ -f $HOME/.aliases ]]; then
+  source $HOME/.aliases
+fi
+
+# Custom functions - to define complex commands.
+if [[ -f $HOME/.functions ]]; then
+  source $HOME/.functions
+fi
 
 # User configuration
 

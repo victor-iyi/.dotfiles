@@ -16,6 +16,7 @@ ln -s ~/.dotfiles/config ~/.config
 
 # Home (~/.)
 ln -s ~/.dotfiles/home/.aliases ~/.aliases
+ln -s ~/.dotfiles/home/.functions ~/.functions
 ln -s ~/.dotfiles/home/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/home/.vim ~/.vim
 ln -s ~/.dotfiles/home/.ripgreprc ~/.ripgreprc

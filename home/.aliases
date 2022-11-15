@@ -35,4 +35,4 @@ alias nah="git reset --hard && git clean -df"
 
 # Rust Kernels alternatives.
 alias cat="bat"
-alias ls="exa -l"
+alias ls="exa -lF"

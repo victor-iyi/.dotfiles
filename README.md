@@ -9,6 +9,7 @@ Homebrew.
 xcode-select --install
 ```
 
+<!-- markdownlint-disable ol-prefix -->
 2. Clone into new hidden directory
 
 ```sh
@@ -22,6 +23,7 @@ git clone git@github.com:victor-iyi/.dotfiles.git
 git clone https://github.com/victor-iyi/.dotfiles.git
 ```
 
+<!-- markdownlint-disable ol-prefix -->
 3. Create symlinks in the Home directory to the real files in the repo.
 
 ```sh
@@ -38,6 +40,7 @@ $ ln -s ~/.dotfiles/config ~/.config
 
 # Home (~/.)
 $ ln -s ~/.dotfiles/home/.aliases ~/.aliases
+$ ln -s ~/.dotfiles/home/.functions ~/.functions
 $ ln -s ~/.dotfiles/home/.gitconfig ~/.gitconfig
 $ ln -s ~/.dotfiles/home/.vim ~/.vim
 $ ln -s ~/.dotfiles/home/.ripgreprc ~/.ripgreprc
@@ -45,6 +48,7 @@ $ ln -s ~/.dotfiles/home/.p10k.zsh ~/.p10k.zsh
 $ ln -s ~/.dotfiles/home/.tmux.conf ~/.tmux.conf
 ```
 
+<!-- markdownlint-disable ol-prefix -->
 4. Install Homebrew, follwed by the software listed in the `Brewfile`.
 
 To generate `Brewfile` run `brew bundle dump --describe` in the directory you
@@ -93,7 +97,7 @@ Google Drive, etc.).
 
 [`defaults`]: https://macos-defaults.com/#🙋-what-s-a-defaults-command
 [Dotbot]: https://github.com/anishathalye/dotbot
-[`zshrc`]: ./zsh/.zshrc
+[`.zshrc`]: ./zsh/.zshrc
 [usb-installer-macos]: https://support.apple.com/en-us/HT201372
 [dotfiles.github.io]: https://dotfiles.github.io
 [eieioxyz-course]: https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276
@@ -102,8 +106,8 @@ Google Drive, etc.).
 
 You are very welcome to modify and use them in your own projects.
 
-Please keep a link to the [original repository](https://github.com/victor-iyi/.dotfiles).
-If you have made a fork with substantial modifications that you feel may be useful,
+Please keep a link to the [original repository]. If you have made a fork with
+substantial modifications that you feel may be useful,
 then please [open a new issue on GitHub] with a link and short description.
 
 [original repository]: https://github.com/victor-iyi/.dotfiles

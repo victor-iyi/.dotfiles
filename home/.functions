@@ -1,0 +1,4 @@
+# Make director(y|ies) and cd into the directory.
+function mkcd() {
+  mkdir -p "$@" && cd "$_"
+}

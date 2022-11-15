@@ -6,7 +6,7 @@ node_modules
 venv
 
 # Home
-home/.vim/
+home/vim/
 
 ## Config
 config/memos.json

@@ -12,6 +12,8 @@ brew "boost"
 brew "bottom"
 # Programmatically minimize files to isolate features of interest
 brew "delta"
+# Tool that bootstraps your dotfiles
+brew "dotbot"
 # Modern replacement for 'ls'
 brew "exa"
 # Simple, fast and user-friendly alternative to find

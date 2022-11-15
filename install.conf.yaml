@@ -1,0 +1,23 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.aliases: home/aliases
+    ~/.functions: home/functions
+    ~/.gitconfig: home/gitconfig
+    ~/.p10k.zsh: home/p10k.zsh
+    ~/.ripgreprc: home/ripgreprc
+    ~/.tmux.conf: home/tmux.conf
+    ~/.vimrc: home/vimrc
+    ~/.zshrc: zsh/zshrc
+    ~/.zshenv: zsh/zshenv
+    ~/.zprofile: zsh/zprofile
+
+- create:
+    - ~/.vim/undodir
+
+#- shell:
+#  - [git submodule update --init --recursive, Installing submodules]

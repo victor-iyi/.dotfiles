@@ -1,5 +1,11 @@
 # .dotfiles
 
+My .dotfile configurations to backup, restore and sync my preferences and settings
+for my development environment and toolbox.
+
+If you would like to learn more about dotfiles, there's plenty of resources on
+[dotfiles.github.io].
+
 ## Steps to bootstrap to a new Mac
 
 1. Install Apple's Command line tools, which are pre-requisites for Git and
@@ -14,38 +20,25 @@ xcode-select --install
 
 ```sh
 # Change directory to the $HOME directory.
-cd $HOME
+$ cd $HOME
 
 # Use SSH (if set up)...
-git clone git@github.com:victor-iyi/.dotfiles.git
+$ git clone git@github.com:victor-iyi/.dotfiles.git
 
-# ...or use HTTPS and switch remotes later.
-git clone https://github.com/victor-iyi/.dotfiles.git
+# ...or use HTTPS
+$ git clone https://github.com/victor-iyi/.dotfiles.git
+
+# ... or github-cli
+$ gh repo clone victor-iyi/.dotfiles
 ```
 
 <!-- markdownlint-disable ol-prefix -->
-3. Create symlinks in the Home directory to the real files in the repo.
+3. Run automated installation *(thanks to [dotbot])* to add symlink, create
+directories, and many more.
 
+<!-- markdownlint-disable commands-show-output -->
 ```sh
-# There are better and less manual ways to do this;
-# investigate install scripts and bootstrapping tools.
-
-# ZSH (~/.zsh\w*|.zprofile)
-$ ln -s ~/.dotfiles/zsh/.zshenv ~/.zshenv
-$ ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
-$ ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
-
-# Config (~/.config)
-$ ln -s ~/.dotfiles/config ~/.config
-
-# Home (~/.)
-$ ln -s ~/.dotfiles/home/.aliases ~/.aliases
-$ ln -s ~/.dotfiles/home/.functions ~/.functions
-$ ln -s ~/.dotfiles/home/.gitconfig ~/.gitconfig
-$ ln -s ~/.dotfiles/home/.vim ~/.vim
-$ ln -s ~/.dotfiles/home/.ripgreprc ~/.ripgreprc
-$ ln -s ~/.dotfiles/home/.p10k.zsh ~/.p10k.zsh
-$ ln -s ~/.dotfiles/home/.tmux.conf ~/.tmux.conf
+$ ./install
 ```
 
 <!-- markdownlint-disable ol-prefix -->
@@ -83,7 +76,7 @@ $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 - [ ] Learn how to use [`defaults`] to record and restore Sytem Preferences and other
 macOS configurations.
 - [ ] Organize these growing steps into multiple script files.
-- [ ] Automate symlinking and run script files with a bootstraping tool like [Dotbot].
+- [ ] Automate symlinking and run script files with a bootstraping tool like [dotbot].
 - [ ] Revisit the list in [`.zshrc`] to customize the shell.
 - [ ] Make a checklist of steps to decommission your computer before wiping your
 hard drive.
@@ -95,13 +88,6 @@ Google Drive, etc.).
 - [ ] And last, but hopefully not least, take the
 [Dotfiles from Start to Finish-ish][eieioxyz-course] course.
 
-[`defaults`]: https://macos-defaults.com/#🙋-what-s-a-defaults-command
-[Dotbot]: https://github.com/anishathalye/dotbot
-[`.zshrc`]: ./zsh/.zshrc
-[usb-installer-macos]: https://support.apple.com/en-us/HT201372
-[dotfiles.github.io]: https://dotfiles.github.io
-[eieioxyz-course]: https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276
-
 ## Contribution
 
 You are very welcome to modify and use them in your own projects.
@@ -109,9 +95,6 @@ You are very welcome to modify and use them in your own projects.
 Please keep a link to the [original repository]. If you have made a fork with
 substantial modifications that you feel may be useful,
 then please [open a new issue on GitHub] with a link and short description.
-
-[original repository]: https://github.com/victor-iyi/.dotfiles
-[open a new issue on GitHub]: https://github.com/victor-iyi/.dotfiles/issues/
 
 ## License (Apache)
 
@@ -126,5 +109,13 @@ These images are included under the "fair usage" laws.
 - [Fireship.io]
 - [eieio.xyz]
 
+[dotfiles.github.io]: https://dotfiles.github.io
+[`defaults`]: https://macos-defaults.com/#🙋-what-s-a-defaults-command
+[dotbot]: https://github.com/anishathalye/dotbot
+[`.zshrc`]: ./zsh/zshrc
+[usb-installer-macos]: https://support.apple.com/en-us/HT201372
+[eieioxyz-course]: https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276
+[original repository]: https://github.com/victor-iyi/.dotfiles
+[open a new issue on GitHub]: https://github.com/victor-iyi/.dotfiles/issues/
 [Fireship.io]: https://fireship.io
 [eieio.xyz]: https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/?referralCode=445BE0B541C48FE85276

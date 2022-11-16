@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew "antigen"
@@ -10,8 +11,6 @@ brew "bat"
 brew "boost"
 # Yet another cross-platform graphical process/system monitor
 brew "bottom"
-# Programmatically minimize files to isolate features of interest
-brew "delta"
 # Tool that bootstraps your dotfiles
 brew "dotbot"
 # Modern replacement for 'ls'
@@ -40,6 +39,8 @@ brew "luajit-openresty"
 brew "tree-sitter"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
 # Open source computer vision library
 brew "opencv"
 # Development kit for the Java programming language
@@ -72,5 +73,53 @@ brew "tree"
 brew "vim"
 # UNIX shell (command interpreter)
 brew "zsh"
+# GPU-accelerated terminal emulator
+cask "alacritty"
+# Utility to create and modify archives
+cask "betterzip"
+# Utility that prevents the system from going to sleep
+cask "caffeine"
+# App to build and share containerized applications and microservices
+cask "docker"
+# Client for the Dropbox cloud storage service
+cask "dropbox"
+# Share your work and ideas with video messages and screenshots
+cask "dropbox-capture"
+# Password manager that syncs across devices
+cask "dropbox-passwords"
+# VPN client for secure internet access and private browsing
+cask "expressvpn"
+# Git client focusing on productivity
+cask "gitkraken"
+# Client for the Google Drive storage service
+cask "google-drive"
+# Terminal built on web technologies
+cask "hyper"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# QuickLook plug-in that renders source code with syntax highlighting
+cask "qlcolorcode"
+# QuickLook generator for Markdown files
+cask "qlmarkdown"
+cask "qlprettypatch"
+# QuickLook plugin for plaintext files without an extension
+cask "qlstephen"
+# QuickLook plugin for CSV files
+cask "quicklook-csv"
+# QuickLook plugin for JSON files
+cask "quicklook-json"
+# Team communication and collaboration software
+cask "slack"
+# Music streaming service
+cask "spotify"
+# Application for inspecting installer packages
+cask "suspicious-package"
+# Open-source code editor
+cask "visual-studio-code"
+# Code editor
+cask "visual-studio-code-insiders"
+cask "webpquicklook"
+# Desktop client for WhatsApp
+cask "whatsapp"
+# Video communication and virtual meeting platform
+cask "zoom"

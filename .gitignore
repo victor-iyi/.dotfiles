@@ -9,14 +9,8 @@ venv
 home/vim/
 
 ## Config
-config/memos.json
-
-# Untracked files
 config/coc/
-config/gcloud/
-
-# Submodules
-config/nvim/.git
-config/rustfmt/.git
-config/alacritty/.git
+config/expressvpn/
 config/iterm2/
+config/gcloud/
+config/github-copilot/

@@ -91,6 +91,8 @@ cask "dropbox-passwords"
 cask "expressvpn"
 # Git client focusing on productivity
 cask "gitkraken"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "google-cloud-sdk"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Terminal built on web technologies

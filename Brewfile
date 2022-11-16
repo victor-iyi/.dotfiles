@@ -11,6 +11,8 @@ brew "bat"
 brew "boost"
 # Yet another cross-platform graphical process/system monitor
 brew "bottom"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # Tool that bootstraps your dotfiles
 brew "dotbot"
 # Modern replacement for 'ls'
@@ -73,24 +75,28 @@ brew "tree"
 brew "vim"
 # UNIX shell (command interpreter)
 brew "zsh"
+# View, print, and comment on PDF documents
+cask "adobe-acrobat-reader"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# Utility to create and modify archives
-cask "betterzip"
+# Communications service
+cask "amazon-chime"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
+# Multi-language programming editor
+cask "coderunner"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Share your work and ideas with video messages and screenshots
 cask "dropbox-capture"
-# Password manager that syncs across devices
-cask "dropbox-passwords"
 # VPN client for secure internet access and private browsing
 cask "expressvpn"
 # Git client focusing on productivity
 cask "gitkraken"
+# Web browser
+cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
 # Client for the Google Drive storage service
@@ -99,6 +105,8 @@ cask "google-drive"
 cask "hyper"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # QuickLook plug-in that renders source code with syntax highlighting
 cask "qlcolorcode"
 # QuickLook generator for Markdown files
@@ -114,8 +122,6 @@ cask "quicklook-json"
 cask "slack"
 # Music streaming service
 cask "spotify"
-# Application for inspecting installer packages
-cask "suspicious-package"
 # Open-source code editor
 cask "visual-studio-code"
 # Code editor

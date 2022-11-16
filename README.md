@@ -3,6 +3,8 @@
 My .dotfile configurations to backup, restore and sync my preferences and settings
 for my development environment and toolbox.
 
+[macOS Setup Guide] is worth taking a look if you're looking to setup your new
+macOS. It covers basic setup for  development environment on a new Mac.
 If you would like to learn more about dotfiles, there's plenty of resources on
 [dotfiles.github.io].
 
@@ -109,6 +111,7 @@ These images are included under the "fair usage" laws.
 - [Fireship.io]
 - [eieio.xyz]
 
+[macOS Setup Guide]: https://sourabhbajaj.com/mac-setup/
 [dotfiles.github.io]: https://dotfiles.github.io
 [`defaults`]: https://macos-defaults.com/#🙋-what-s-a-defaults-command
 [dotbot]: https://github.com/anishathalye/dotbot

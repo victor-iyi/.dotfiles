@@ -69,7 +69,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
-
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
 
@@ -100,24 +99,25 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
   alias-finder
   autopep8
-  poetry
   colorize
-  command-not-found
+  colored-man-pages
   common-aliases
+  command-not-found
   gcloud
+  git
   git-flow
+  poetry
   python
   rust
   sublime
   themes
   virtualenv
   virtualenvwrapper
+  web-search
   zsh-completions
   zsh-autosuggestions
-  web-search
 )
 
 # brew install antigen

@@ -1,6 +1,9 @@
 # Rust package manager - cargo
 source "$HOME/.cargo/env"
 
+# Hombrew
+export HOMEBREW_CASK_OPTS="--no-quarantine"
+
 # Syntax highlighting for man pages using bat
 # export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export BAT_PAGER="less -RF"

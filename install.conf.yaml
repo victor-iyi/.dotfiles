@@ -8,6 +8,7 @@
     ~/.aliases: home/aliases
     ~/.functions: home/functions
     ~/.gitconfig: home/gitconfig
+    ~/.gitignore_global: home/gitignore_global
     ~/.p10k.zsh: home/p10k.zsh
     ~/.ripgreprc: home/ripgreprc
     ~/.tmux.conf: home/tmux.conf

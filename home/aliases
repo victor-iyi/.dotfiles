@@ -6,14 +6,14 @@
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+
 ## Aliases
 
 # Open this file
 alias mkalias="nvim $HOME/.aliases"
 
 # Open zsh profile's file -- edit env variables.
-alias zshconfig="nvim $HOME/.zshrc"
+alias zshrc="nvim $HOME/.zshrc"
 alias zshenv="nvim $HOME/.zshenv"
 
 # Open Alacritty configuration.
@@ -24,16 +24,16 @@ alias nvimconfig="nvim $HOME/.config/nvim/init.vim"
 
 # Git aliases
 alias gs="git status"
-alias gl="git log"
-alias gpom="git push origin master"
+alias gl="git log --oneline"
 alias ga="git add"
 alias gaa="git add ."
 alias gac="git add . & git commit -m"
 alias gc="git commit -m"
-alias amend="git add . && git commit --amend"
-alias nah="git reset --hard && git clean -df"
+alias gamend="git add . && git commit --amend"
+alias nah="git reset --hard && git clean -df"  # reset all changes and clean wokring directory
 
 # Rust Kernels alternatives.
 alias cat="bat --theme='Visual Studio Dark+' --color=always"
 alias bathelp="bat --plain --language=help"
-alias ls="exa -lF"
+alias ls="exa -lF"    # append / to end of directories and * to executables.
+alias tree="tree -C"  # turn on colorization for tree output

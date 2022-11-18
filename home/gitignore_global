@@ -1,0 +1,14 @@
+# MacOS Template
+.DS_Store
+
+# Python
+venv/
+
+# Rust
+target/
+
+# VSCode
+.vscode/
+
+# Vim
+.vim/

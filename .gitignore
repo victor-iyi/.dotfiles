@@ -5,10 +5,13 @@
 node_modules
 venv
 
+# Homebrew
+Brewfile.lock.json
+
 # Home
 home/vim/
 
-## Config
+# Config
 config/coc/
 config/expressvpn/
 config/iterm2/

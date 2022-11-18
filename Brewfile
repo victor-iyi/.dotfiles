@@ -37,6 +37,8 @@ brew "libpq"
 brew "lua"
 # OpenResty's Branch of LuaJIT 2
 brew "luajit-openresty"
+# Mac App Store command-line interface
+brew "mas"
 # Parser generator tool and incremental parsing library
 brew "tree-sitter"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -79,12 +81,12 @@ brew "zsh"
 cask "adobe-acrobat-reader"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Application launcher and productivity software
+cask "alfred"
 # Communications service
 cask "amazon-chime"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
-# Multi-language programming editor
-cask "coderunner"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
@@ -118,8 +120,6 @@ cask "qlstephen"
 cask "quicklook-csv"
 # QuickLook plugin for JSON files
 cask "quicklook-json"
-# Team communication and collaboration software
-cask "slack"
 # Music streaming service
 cask "spotify"
 # Open-source code editor
@@ -127,7 +127,18 @@ cask "visual-studio-code"
 # Code editor
 cask "visual-studio-code-insiders"
 cask "webpquicklook"
-# Desktop client for WhatsApp
-cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "CodeRunner", id: 955297617
+mas "Dropbox Passwords for Safari", id: 1558391686
+mas "Fantastical", id: 975937182
+mas "HP Smart", id: 1474276998
+mas "Keynote", id: 409183694
+mas "MindNode", id: 1289197285
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Prime Video", id: 545519333
+mas "Slack", id: 803453959
+mas "Twitter", id: 1482454543
+mas "WhatsApp", id: 1147396723
+mas "Xcode", id: 497799835

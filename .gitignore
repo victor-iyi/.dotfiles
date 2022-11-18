@@ -15,3 +15,6 @@ config/iterm2/
 config/gcloud/
 config/github-copilot/
 config/gh/
+
+# Homebrew
+Brewfile.lock.json

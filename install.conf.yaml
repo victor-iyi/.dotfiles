@@ -2,7 +2,13 @@
     link:
       relink: true
 
+# Remove dead symbolic links in parent folder (no recursive clean - recommended)
 - clean: ['~']
+
+# Recursively remove dead symlinks in .config directory
+# - clean:
+#   ~/.config:
+#     recursive: true
 
 - link:
     ~/.aliases: home/aliases
@@ -16,7 +22,9 @@
     ~/.zshrc: zsh/zshrc
     ~/.zshenv: zsh/zshenv
     ~/.zprofile: zsh/zprofile
+    ~/.config:
 
+# Create directories if they don't exist.
 - create:
     - ~/dev/
     - ~/.vim/undodir
@@ -25,5 +33,6 @@
   - [git submodule update --init --recursive, Installing submodules]
   -
     command: ./scripts/homebrew.zsh
+    description: Setup homebrew installation
     stdout: true
     stdin: true

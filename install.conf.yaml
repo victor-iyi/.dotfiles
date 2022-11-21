@@ -26,8 +26,10 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  # -
-  #   command: ./scripts/homebrew.zsh
-  #   description: Setup homebrew installation
-  #   stdout: true
-  #   stdin: true
+
+  # Homebrew setup.
+  -
+    command: ./scripts/homebrew.zsh
+    description: Setup homebrew installation
+    stdout: true
+    stdin: true

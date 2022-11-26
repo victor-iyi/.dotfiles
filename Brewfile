@@ -75,6 +75,8 @@ brew "tokei"
 brew "tree"
 # Vi 'workalike' with many additional features
 brew "vim"
+# JavaScript package manager
+brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
 # View, print, and comment on PDF documents

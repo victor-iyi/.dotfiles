@@ -17,7 +17,18 @@
     ~/.zshrc: zsh/zshrc
     ~/.zshenv: zsh/zshenv
     ~/.zprofile: zsh/zprofile
-    ~/.config:
+    ~/.config/alacritty:
+      create: true
+      path: config/alacritty
+    ~/.config/rustfmt:
+      create: true
+      path: config/rustfmt
+    ~/.config/nvim:
+      create: true
+      path: config/nvim
+    ~/.config/starship:
+      create: true
+      path: config/starship
 
 # Create directories if they don't exist.
 - create:

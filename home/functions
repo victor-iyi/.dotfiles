@@ -9,3 +9,8 @@ function mkcd() {
 function help() {
   "$@" --help 2>&1 | bathelp
 }
+
+# Check if a command exists.
+function exists() {
+  command -v $1 > /dev/null 2>&1
+}

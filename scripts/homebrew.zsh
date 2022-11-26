@@ -3,7 +3,7 @@
 echo "\n<<< Starting Homebrew Setup >>>\n"
 
 # Homebrew installation
-if [ ! command -v brew &> /dev/null ]; then
+if !exists brew; then
   # Install homebrew.
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else

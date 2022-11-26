@@ -22,6 +22,9 @@ alias alacritty-config="nvim $HOME/.config/alacritty/alacritty.yml"
 # Open Neovim configuration.
 alias nvimconfig="nvim $HOME/.config/nvim/init.vim"
 
+# Brew bundle dump
+alias bbd="brew bundle dump --force --describe"
+
 # Git aliases
 alias gs="git status"
 alias gl="git log --oneline"

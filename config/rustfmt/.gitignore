@@ -1,0 +1,6 @@
+# MacOS template
+.DS_Store
+
+# Editor template
+.vim/
+.vscode/

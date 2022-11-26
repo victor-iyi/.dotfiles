@@ -2,11 +2,6 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
-[submodule "config/rustfmt"]
-	path = config/rustfmt
-	url = https://github.com/victor-iyi/rustfmt-config
-	ignore = dirty
-[submodule "config/alacritty"]
-	path = config/alacritty
-	url = https://github.com/victor-iyi/alacritty
-	ignore = dirty
+[submodule "config/nvim"]
+	path = config/nvim
+	url = https://github.com/victor-iyi/nvim

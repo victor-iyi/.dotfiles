@@ -12,13 +12,13 @@ Brewfile.lock.json
 home/vim/
 
 # Config
-# config/coc/
-# config/expressvpn/
-# config/iterm2/
-# config/gcloud/
-# config/github-copilot/
-# config/gh/
-# config/nvim/
+config/coc/
+config/expressvpn/
+config/gcloud/
+config/gh/
+config/github-copilot/
+config/iterm2/
+config/jgit/
 
 # Homebrew
 Brewfile.lock.json

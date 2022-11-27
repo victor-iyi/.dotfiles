@@ -3,8 +3,23 @@ function mkcd() {
   mkdir -p "$@" && cd "$_"
 }
 
-# Highlighting `--help` messages
-# help()( {
-#   "@" --help 2>&1 | bat -plhelp
-#   # "@" --help 2>&1 | bat --plain --language=help
-# }
+# Highlighting --help messages with bat
+# Make sure `alias bathelp="bat --plain --language=help"`
+# exits before this function.
+function help() {
+  "$@" --help 2>&1 | bat -plhelp
+}
+
+# Check if a command exists.
+function exists() {
+  # `command -v` similar to `which`
+  # https://stackoverflow.com/a/677212/1341838
+  command -v $1 > /dev/null 2>&1
+}
+
+# Pull changes from git submodule and auto-update.
+#
+# https://medium.com/@porteneuve/mastering-git-submodules-34c65e940407
+function __git_spull() {
+  git pull "$@" && git submodule sync --recursive && git submodule update --init --recursive
+}

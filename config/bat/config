@@ -26,6 +26,8 @@
 --map-syntax "Brewfile:Bourne Again Shell (bash)"
 --map-syntax ".aliases:Bourne Again Shell (bash)"
 --map-syntax ".functions:Bourne Again Shell (bash)"
+--map-syntax "aliases:Bourne Again Shell (bash)"
+--map-syntax "functions:Bourne Again Shell (bash)"
 --map-syntax "zshrc:Bourne Again Shell (bash)"
 --map-syntax "zshenv:Bourne Again Shell (bash)"
 --map-syntax "Brewfile:Bourne Again Shell (bash)"

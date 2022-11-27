@@ -36,3 +36,5 @@
 	excludesfile = ~/.gitignore_global
 [init]
 	defaultBranch = main
+[status]
+	submoduleSummary = true

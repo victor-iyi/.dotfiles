@@ -27,6 +27,7 @@
 
 [diff]
   colorMoved = default
+	submodule = log
 
 [credential]
 	helper = store
@@ -38,3 +39,9 @@
 	defaultBranch = main
 [status]
 	submoduleSummary = true
+[fetch]
+	recurseSubmodules = on-demand
+; [alias]
+; 	spull = "__git_spull() { git pull \"$@\" && git submodule sync --recursive && git submodule update --init --recursive; }; __git_spull"
+[push]
+	recurseSubmodules = on-demand

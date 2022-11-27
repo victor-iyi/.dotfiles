@@ -20,12 +20,15 @@
     ~/.config/alacritty:
       create: true
       path: config/alacritty
-    ~/.config/rustfmt:
+    ~/.config/bat:
       create: true
-      path: config/rustfmt
+      path: config/bat
     ~/.config/nvim:
       create: true
       path: config/nvim
+    ~/.config/rustfmt:
+      create: true
+      path: config/rustfmt
     ~/.config/starship:
       create: true
       path: config/starship

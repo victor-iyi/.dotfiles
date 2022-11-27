@@ -6,7 +6,9 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Syntax highlighting for man pages using bat
 # export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-export BAT_PAGER="less -RF"
+# export BAT_PAGER="less -RF"
+# Use bat for (instead of default cat) null commands.
+export NULLCMD=bat
 
 # C++ Flags.
 CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"

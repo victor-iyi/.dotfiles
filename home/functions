@@ -3,9 +3,8 @@ function mkcd() {
   mkdir -p "$@" && cd "$_"
 }
 
-# Highlighting --help messages with bat
-# Make sure `alias bathelp="bat --plain --language=help"`
-# exits before this function.
-function help() {
-  "$@" --help 2>&1 | bathelp
-}
+# Highlighting `--help` messages
+# help()( {
+#   "@" --help 2>&1 | bat -plhelp
+#   # "@" --help 2>&1 | bat --plain --language=help
+# }

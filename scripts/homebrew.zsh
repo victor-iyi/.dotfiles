@@ -24,4 +24,4 @@ fi
 # or put it in a global location `~/.Brewfile` and run `brew bundle --global`
 
 # Install and upgrade (by default) all dependencies from `Brewfile`.
-brew bundle --describe --verbose
+brew bundle --describe

@@ -47,3 +47,10 @@
     description: Setup homebrew installation
     stdout: true
     stdin: true
+
+  # TMUX.
+  -
+    command: ./scripts/tmux.zsh
+    description: Install TMUX Plugin Manager
+    stdout: true
+    stdin: true

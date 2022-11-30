@@ -724,7 +724,7 @@ mouse:
 #
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
-key_bindings:
+#key_bindings:
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }
@@ -835,7 +835,7 @@ key_bindings:
   #- { key: F,              mods: Command, mode: ~Search,     action: SearchForward         }
   #- { key: B,              mods: Command, mode: ~Search,     action: SearchBackward        }
 
-  - { key: F,              mods: Command|Control,             action: ToggleSimpleFullscreen}
+  #- { key: F,              mods: Command|Control,             action: ToggleSimpleFullscreen}
 
 #debug:
   # Display the time it takes to redraw each frame.

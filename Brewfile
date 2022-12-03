@@ -31,6 +31,8 @@ brew "graphviz"
 brew "grex"
 # Post-modern modal text editor
 brew "helix"
+# Pager program similar to more
+brew "less"
 # Postgres C API library
 brew "libpq"
 # Powerful, lightweight programming language
@@ -128,6 +130,8 @@ cask "spotify"
 cask "visual-studio-code"
 # Code editor
 cask "visual-studio-code-insiders"
+# Rust-based terminal
+cask "warp"
 cask "webpquicklook"
 # Video communication and virtual meeting platform
 cask "zoom"

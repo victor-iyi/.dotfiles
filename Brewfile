@@ -1,3 +1,4 @@
+tap "ellie/atuin"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -5,6 +6,8 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew "antigen"
+# Improved shell history for zsh and bash
+brew "atuin"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Collection of portable C++ source libraries

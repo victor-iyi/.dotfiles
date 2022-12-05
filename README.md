@@ -75,19 +75,19 @@ $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ## TODO LIST
 
-- [ ] Learn how to use [`defaults`] to record and restore Sytem Preferences and other
+- [x] Learn how to use [`defaults`] to record and restore Sytem Preferences and other
 macOS configurations.
-- [ ] Organize these growing steps into multiple script files.
-- [ ] Automate symlinking and run script files with a bootstraping tool like [dotbot].
-- [ ] Revisit the list in [`.zshrc`] to customize the shell.
+- [x] Organize these growing steps into multiple script files.
+- [x] Automate symlinking and run script files with a bootstraping tool like [dotbot].
+- [x] Revisit the list in [`.zshrc`] to customize the shell.
 - [ ] Make a checklist of steps to decommission your computer before wiping your
 hard drive.
 - [ ] Create a [bootable USB installer for macOS][usb-installer-macos].
-- [ ] Integrate other cloud services into your Dotfiles process (Dropbox,
+- [x] Integrate other cloud services into your Dotfiles process (Dropbox,
 Google Drive, etc.).
 - [ ] Find inspiration and examples in other Dotfiles repositories at
 [dotfiles.github.io]
-- [ ] And last, but hopefully not least, take the
+- [x] And last, but hopefully not least, take the
 [Dotfiles from Start to Finish-ish][eieioxyz-course] course.
 
 ## Contribution

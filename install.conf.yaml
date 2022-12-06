@@ -36,8 +36,9 @@
 
 # Create directories if they don't exist.
 - create:
-    - ~/dev/
+    - ~/dev
     - ~/.vim/undodir
+    - ~/.zsh_functions
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
@@ -53,5 +54,12 @@
   -
     command: ./scripts/tmux.zsh
     description: Install TMUX Plugin Manager
+    stdout: true
+    stdin: true
+
+  # Shell completions.
+  -
+    command: ./scripts/completions.zsh
+    description: Setup shell completions
     stdout: true
     stdin: true

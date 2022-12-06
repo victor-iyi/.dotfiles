@@ -36,10 +36,10 @@ export DYLD_FALLBACK_LIBRARY_PATH="$(xcode-select --print-path)/Toolchains/Xcode
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 
 # Google Cloud Credentials
-GOOGLE_APPLICATION_CREDENTIALS="$HOME/.config/gcloud/legacy_credentials/vafolabi@lotlinx.com/dev-lotlinx-ml-8d85701510af.json"
-export GOOGLE_APPLICATION_CREDENTIALS
+# GOOGLE_APPLICATION_CREDENTIALS="$HOME/.config/gcloud/legacy_credentials/vafolabi@lotlinx.com/dev-lotlinx-ml-8d85701510af.json"
+# export GOOGLE_APPLICATION_CREDENTIALS
 # export CLOUDSDK_PYTHON=python3
- 
+
 # History management
 export HISTCONTROL=ignoreboth
 export HISTSIZE=5000

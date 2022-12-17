@@ -70,6 +70,8 @@ brew "rust"
 brew "sd"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Opinionated Lua code formatter
+brew "stylua"
 # Very fast implementation of tldr in Rust
 brew "tealdeer"
 # Terminal multiplexer
@@ -78,6 +80,8 @@ brew "tmux"
 brew "tokei"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Build, bundle & ship your Rust WASM application to the web
+brew "trunk"
 # Vi 'workalike' with many additional features
 brew "vim"
 # JavaScript package manager

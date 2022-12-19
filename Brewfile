@@ -28,6 +28,8 @@ brew "ffmpeg"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Command-line tool for generating regular expressions
@@ -66,6 +68,8 @@ brew "pytorch"
 brew "ripgrep"
 # Safe, concurrent, practical language
 brew "rust"
+# Experimental Rust compiler front-end for IDEs
+brew "rust-analyzer"
 # Intuitive find & replace CLI
 brew "sd"
 # Cross-shell prompt for astronauts
@@ -106,6 +110,12 @@ cask "dropbox"
 cask "dropbox-capture"
 # VPN client for secure internet access and private browsing
 cask "expressvpn"
+# Monospaced font that includes programming ligatures
+cask "font-cascadia-code"
+# Developer targeted fonts with a high number of glyphs
+cask "font-caskaydia-cove-nerd-font"
+# Developer targeted fonts with a high number of glyphs
+cask "font-fira-code-nerd-font"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser

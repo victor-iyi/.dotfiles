@@ -1,45 +1,47 @@
+#!/usr/bin/env sh
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# alias zshconfig='mate ~/.zshrc'
+# alias ohmyzsh='mate ~/.oh-my-zsh'
 
 ## Aliases
 
 # Open this file
-alias mkalias="nvim $HOME/.aliases"
+alias mkalias='nvim $HOME/.aliases'
 
 # Open zsh profile's file -- edit env variables.
-alias zshrc="nvim $HOME/.zshrc"
-alias zshenv="nvim $HOME/.zshenv"
+alias zshrc='nvim $HOME/.zshrc'
+alias zshenv='nvim $HOME/.zshenv'
 
 # Open Alacritty configuration.
-alias alacritty-config="nvim $HOME/.config/alacritty/alacritty.yml"
+alias alacritty-config='nvim $HOME/.config/alacritty/alacritty.yml'
 
 # Open Neovim configuration.
-alias nvimconfig="nvim $HOME/.config/nvim/init.vim"
+alias nvimconfig='nvim $HOME/.config/nvim/init.vim'
 
 # Brew bundle dump
-alias bbd="brew bundle dump --force --describe"
+alias bbd='brew bundle dump --force --describe'
 
 # Use neovim instead of vim.
-alias vim="nvim"
+alias vim='nvim'
 
 # Git aliases
-alias gs="git status"
-alias gl="git log --oneline"
-alias ga="git add"
-alias gaa="git add ."
-alias gac="git add . & git commit -m"
-alias gc="git commit -m"
-alias gamend="git add . && git commit --amend"
-alias nah="git reset --hard && git clean -df"  # reset all changes and clean wokring directory
+alias gs='git status'
+alias gl='git log --oneline'
+alias ga='git add'
+alias gaa='git add .'
+alias gac='git add . & git commit -m'
+alias gc='git commit -m'
+alias gamend='git add . && git commit --amend'
+alias nah='git reset --hard && git clean -df'  # reset all changes and clean wokring directory
 
 # Rust Kernels alternatives.
-alias cat="bat --theme='Visual Studio Dark+' --color=always"
-alias bathelp="bat --plain --language=help"
-alias ls="exa -lFh --git"    # append / to end of directories and * to executables.
-alias tree="tree -C"         # turn on colorization for tree output
+alias cat='bat --theme="Visual Studio Dark+" --color=always'
+alias bathelp='bat --plain --language=help'
+alias ls='exa -lFh --git'    # append / to end of directories and * to executables.
+alias tree='tree -C'         # turn on colorization for tree output

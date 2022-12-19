@@ -2,8 +2,9 @@
 
 echo "\n<<< Starting Homebrew Setup >>>\n"
 
+# TODO(victor): Use `exists` function defined in `~/.functions`.
 # Homebrew installation
-if !exists brew; then
+if [ ! command -v brew > /dev/null 2>&1 ]; then
   # Install homebrew.
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else

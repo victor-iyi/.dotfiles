@@ -1,6 +1,11 @@
+#!/usr/bin/env sh
+
+# shellcheck disable=2112 # 'function' keyword is non-standard. Delete it.
+
 # Make director(y|ies) and cd into the directory.
 function mkcd() {
-  mkdir -p "$@" && cd "$_"
+  # shellcheck disable=3028  # In POSIX sh, _ is undefined.
+  ( (mkdir -p "$@" && cd "$_") || exist)
 }
 
 # Highlighting --help messages with bat
@@ -14,7 +19,7 @@ function help() {
 function exists() {
   # `command -v` similar to `which`
   # https://stackoverflow.com/a/677212/1341838
-  command -v $1 > /dev/null 2>&1
+  command -v "$1" > /dev/null 2>&1
 }
 
 # Pull changes from git submodule and auto-update.

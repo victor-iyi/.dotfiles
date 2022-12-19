@@ -18,8 +18,9 @@ if [[ ! -f $COMPLETION_PATH/_alacritty ]]; then
   # cp extra/completions/_alacritty $COMPLETION_PATH
 fi
 
+# TODO(victor): Use `exists` function defined in `~/.functions`.
 # Rust completion.
-if !exists rustup; then
+if [ ! command -v rustup > /dev/null 2>&1 ]; then
   echo 'Installing Rust...'
   # Install rustup.
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh

@@ -2,8 +2,9 @@
 
 echo '\n<<< Setting up TMUX Plugin Manager >>>\n'
 
+# TODO(victor): Use `exists` function defined in `~/.functions`.
 # Ensure tmux is installed.
-if !exists tmux; then
+if [ ! command -v tmux > /dev/null 2>&1 ]; then
   # NOTE: This should be unreachable because tmux would be installed already.
   echo 'TMUX not installed.'
 

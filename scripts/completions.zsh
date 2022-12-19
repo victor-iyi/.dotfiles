@@ -5,6 +5,16 @@
 # echo 'fpath+=${ZDOTDIR:-~}/.zsh_functions' >> ${ZDOTDIR:-~}/.zshrc
 COMPLETION_PATH="${ZDOTDIR:-~}/.zsh_functions"
 
+# TODO(victor): Use `exists` function defined in `~/.functions`.
+# Rust completion.
+if ! command -v rustup > /dev/null 2>&1; then
+  echo 'Installing Rust...'
+  # Install rustup.
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+else
+  echo 'Rust installed already.'
+fi
+
 # Create completion path.
 if [[ -d $COMPLETION_PATH ]]; then
   mkdir -p $COMPLETION_PATH
@@ -18,13 +28,6 @@ if [[ ! -f $COMPLETION_PATH/_alacritty ]]; then
   # cp extra/completions/_alacritty $COMPLETION_PATH
 fi
 
-# TODO(victor): Use `exists` function defined in `~/.functions`.
-# Rust completion.
-if [ ! command -v rustup > /dev/null 2>&1 ]; then
-  echo 'Installing Rust...'
-  # Install rustup.
-  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-fi
 
 # Update Rust.
 echo 'Updating rustup...'

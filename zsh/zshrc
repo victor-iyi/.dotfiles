@@ -37,7 +37,7 @@ export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="pygmalion-virtualenv"
 # See: https://github.com/romkatv/powerlevel10k for more details.
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -98,35 +98,36 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  alias-finder
-  autopep8
-  colorize
-  colored-man-pages
-  common-aliases
-  command-not-found
-  gcloud
-  git
-  git-flow
-  poetry
-  python
-  rust
-  sublime
-  themes
-  virtualenv
-  virtualenvwrapper
-  web-search
-  zsh-completions
-  zsh-autosuggestions
-)
+# plugins=(
+# )
 
 # brew install antigen
 source /opt/homebrew/share/antigen/antigen.zsh
 
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
 # Bundle from the default repo (robbyrussell's oh-my-zsh).
+# antigen bundle lein
 antigen bundle git
 antigen bundle pip
-# antigen bundle lein
+antigen bundle alias-finder
+antigen bundle autopep8
+antigen bundle colorize
+antigen bundle colored-man-pages
+antigen bundle common-aliases
+antigen bundle command-not-found
+antigen bundle gcloud
+antigen bundle git
+antigen bundle git-flow
+antigen bundle poetry
+antigen bundle python
+antigen bundle rust
+antigen bundle sublime
+antigen bundle themes
+antigen bundle virtualenv
+antigen bundle virtualenvwrapper
+antigen bundle web-search
 
 # Syntax highlighting bundle
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -135,10 +136,10 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
 
 # Autocompletions
-# antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-autosuggestions
 
 # Load the theme
-# antigen theme robbyrussell
+antigen theme romkatv/powerlevel10k
 
 # Tell antigen that you're done.
 antigen apply
@@ -148,7 +149,7 @@ antigen apply
 FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 fpath+="~/.zsh_functions"
 
-autoload -U compinit && compinit
+# autoload -U compinit && compinit
 
 # REQUIRED - Use Oh-my-zsh in terminal.
 source $ZSH/oh-my-zsh.sh

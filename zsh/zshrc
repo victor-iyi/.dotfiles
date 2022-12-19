@@ -98,33 +98,36 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  alias-finder
-  autopep8
-  colorize
-  colored-man-pages
-  common-aliases
-  command-not-found
-  gcloud
-  git
-  git-flow
-  poetry
-  python
-  rust
-  sublime
-  themes
-  virtualenv
-  virtualenvwrapper
-  web-search
-)
+# plugins=(
+# )
 
 # brew install antigen
 source /opt/homebrew/share/antigen/antigen.zsh
 
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
 # Bundle from the default repo (robbyrussell's oh-my-zsh).
+# antigen bundle lein
 antigen bundle git
 antigen bundle pip
-# antigen bundle lein
+antigen bundle alias-finder
+antigen bundle autopep8
+antigen bundle colorize
+antigen bundle colored-man-pages
+antigen bundle common-aliases
+antigen bundle command-not-found
+antigen bundle gcloud
+antigen bundle git
+antigen bundle git-flow
+antigen bundle poetry
+antigen bundle python
+antigen bundle rust
+antigen bundle sublime
+antigen bundle themes
+antigen bundle virtualenv
+antigen bundle virtualenvwrapper
+antigen bundle web-search
 
 # Syntax highlighting bundle
 antigen bundle zsh-users/zsh-syntax-highlighting

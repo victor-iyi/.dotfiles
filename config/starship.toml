@@ -62,6 +62,11 @@ detect_extensions = []
 # work in the directory that contains the venv dir but maybe this is ok?
 python_binary = ["./venv/bin/python", "python3", "python", "~/miniforge3/bin/python"]
 
+format = '\[[${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)\]'
 
 [rust]
-format = "via [⚙️ $version](red bold)"
+# # format = "via [⚙️ $version](red bold)"
+# No runtime version preset.
+# format = 'via [$symbol]($style)'
+# Bracketed segments.
+format = '\[[$symbol($version)]($style)\]'

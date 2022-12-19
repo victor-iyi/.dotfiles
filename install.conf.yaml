@@ -31,9 +31,7 @@
     ~/.config/rustfmt:
       create: true
       path: config/rustfmt
-    ~/.config/starship:
-      create: true
-      path: config/starship
+    ~/.config/starship.toml: config/starship.toml
 
 # Create directories if they don't exist.
 - create:

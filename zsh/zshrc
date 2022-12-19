@@ -37,7 +37,7 @@ export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="pygmalion-virtualenv"
 # See: https://github.com/romkatv/powerlevel10k for more details.
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -116,8 +116,6 @@ plugins=(
   virtualenv
   virtualenvwrapper
   web-search
-  zsh-completions
-  zsh-autosuggestions
 )
 
 # brew install antigen
@@ -135,10 +133,10 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
 
 # Autocompletions
-# antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-autosuggestions
 
 # Load the theme
-# antigen theme robbyrussell
+antigen theme romkatv/powerlevel10k
 
 # Tell antigen that you're done.
 antigen apply
@@ -148,7 +146,7 @@ antigen apply
 FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 fpath+="~/.zsh_functions"
 
-autoload -U compinit && compinit
+# autoload -U compinit && compinit
 
 # REQUIRED - Use Oh-my-zsh in terminal.
 source $ZSH/oh-my-zsh.sh

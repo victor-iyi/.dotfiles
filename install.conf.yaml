@@ -11,6 +11,7 @@
     ~/.functions: home/functions
     ~/.gitconfig: home/gitconfig
     ~/.gitignore_global: home/gitignore_global
+    ~/.hyper.js: home/hyper.js
     ~/.p10k.zsh: home/p10k.zsh
     ~/.ripgreprc: home/ripgreprc
     ~/.tmux.conf: home/tmux.conf

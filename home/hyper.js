@@ -10,7 +10,7 @@ module.exports = {
     // default font size in pixels for all tabs
     fontSize: 12,
     // font family with optional fallbacks
-    fontFamily: '"CaskaydiaCove NF", "Fira Code", Menlo, Consolas, "Lucida Console", monospace',
+    fontFamily: '"CaskaydiaCove Nerd Font", "Fira Code Nerd Font", Menlo, Consolas, "Lucida Console", monospace',
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
     // font weight for bold characters: 'normal' or 'bold'

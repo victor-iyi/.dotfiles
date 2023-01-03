@@ -12,6 +12,9 @@ else
   echo "Skipping homebrew installation..."
 fi
 
+# Update & upgrade homebrew.
+brew update && brew upgrade
+
 # NOTE: Keep and eye out for a different `--no-quarantine` solution.
 #
 # Currently, you can't do `brew bundle --no-quarantine` as an option.

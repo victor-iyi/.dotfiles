@@ -36,6 +36,10 @@ brew "graphviz"
 brew "grex"
 # Post-modern modal text editor
 brew "helix"
+# Platform built on V8 to build network applications
+brew "node"
+# Interactive environments for writing and running code
+brew "jupyterlab"
 # Pager program similar to more
 brew "less"
 # Postgres C API library
@@ -50,8 +54,6 @@ brew "mas"
 brew "tree-sitter"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Platform built on V8 to build network applications
-brew "node"
 # Open source computer vision library
 brew "opencv"
 # Development kit for the Java programming language
@@ -116,6 +118,8 @@ cask "font-cascadia-code"
 cask "font-caskaydia-cove-nerd-font"
 # Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
+# Desktop client for GitHub repositories
+cask "github"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser

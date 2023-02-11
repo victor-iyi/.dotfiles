@@ -50,6 +50,10 @@ brew "lua"
 brew "luajit-openresty"
 # Mac App Store command-line interface
 brew "mas"
+# Safe, concurrent, practical language
+brew "rust"
+# Build and publish Rust crates as Python packages
+brew "maturin"
 # Parser generator tool and incremental parsing library
 brew "tree-sitter"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -68,8 +72,6 @@ brew "procs"
 brew "pytorch"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Safe, concurrent, practical language
-brew "rust"
 # Experimental Rust compiler front-end for IDEs
 brew "rust-analyzer"
 # Intuitive find & replace CLI
@@ -132,6 +134,8 @@ cask "google-drive"
 cask "hyper"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Full TeX Live distribution with GUI applications
+cask "mactex"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # QuickLook plug-in that renders source code with syntax highlighting

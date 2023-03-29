@@ -18,6 +18,8 @@ brew "bottom"
 brew "python@3.11"
 # Tool that bootstraps your dotfiles
 brew "dotbot"
+# More intuitive version of du in rust
+brew "dust"
 # Modern replacement for 'ls'
 brew "exa"
 # Simple, fast and user-friendly alternative to find
@@ -58,6 +60,8 @@ brew "maturin"
 brew "tree-sitter"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Modern shell for the GitHub era
+brew "nushell"
 # Open source computer vision library
 brew "opencv"
 # Development kit for the Java programming language
@@ -92,6 +96,8 @@ brew "tree"
 brew "trunk"
 # Vi 'workalike' with many additional features
 brew "vim"
+# Internet file retriever
+brew "wget"
 # JavaScript package manager
 brew "yarn"
 # UNIX shell (command interpreter)
@@ -108,6 +114,8 @@ cask "amazon-chime"
 cask "caffeine"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Draw.io is free online diagram software
+cask "drawio"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Share your work and ideas with video messages and screenshots
@@ -138,6 +146,8 @@ cask "iterm2"
 cask "mactex"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# App to write, plan, collaborate, and get organized
+cask "notion"
 # QuickLook plug-in that renders source code with syntax highlighting
 cask "qlcolorcode"
 # QuickLook generator for Markdown files

@@ -30,3 +30,9 @@ else
    # TODO: Use this instead.
    # sudo ln -sfv /usr/local/bin/zsh /private/var/select/sh
 fi
+
+# Enable key-repeating in VSCode.
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+
+# Enable key-repeating in VSCodeInsiders.
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false

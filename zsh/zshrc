@@ -23,9 +23,9 @@ export PATH=$PATH:$(go env GOPATH)/bin
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # PostgreSQL -- brew install libpq
-#
 # libpq for PostgreSQL
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+# export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
 
 # Export Starship configuration file.
 # export STARSHIP_CONFIG=$HOME/.config/starship/config.toml

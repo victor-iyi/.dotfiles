@@ -16,8 +16,10 @@ CPPFLAGS+="-I/opt/homebrew/opt/libpq/include"
 export CPPFLAGS
 
 # Linker Flags.
-# export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
-
+LIBRARY_PATH="$LIBRARY_PATH:/opt/homebrew/lib:/opt/homebrew/opt/libpq/lib"
+export LIBRARY_PATH
+# LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
+# export LDFLAGS
 # Rust flags.
 # export RUSTFLAGS="/opt/homebrew/opt/libpq/include"
 

@@ -11,8 +11,6 @@ brew "atuin"
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -25,8 +23,6 @@ brew "bottom"
 brew "dotbot"
 # More intuitive version of du in rust
 brew "dust"
-# Modern replacement for 'ls'
-brew "exa"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # OpenType text shaping engine
@@ -67,6 +63,8 @@ brew "jupyterlab"
 brew "kubernetes-cli"
 # Pager program similar to more
 brew "less"
+# C library of Git core methods that is re-entrant and linkable
+brew "libgit2"
 # Postgres C API library
 brew "libpq"
 # Powerful, lightweight programming language
@@ -99,12 +97,18 @@ brew "postgresql@14"
 brew "pre-commit"
 # Modern replacement for ps written by Rust
 brew "procs"
+# Generic syntax highlighter
+brew "pygments"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # Tensors and dynamic neural networks
 brew "pytorch"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Extremely fast Python linter, written in Rust
 brew "ruff"
+# Language Server Protocol implementation for Ruff
+brew "ruff-lsp"
 # Experimental Rust compiler front-end for IDEs
 brew "rust-analyzer"
 # Intuitive find & replace CLI
@@ -151,11 +155,8 @@ cask "dropbox"
 cask "dropbox-capture"
 # VPN client for secure internet access and private browsing
 cask "expressvpn"
-# Monospaced font that includes programming ligatures
 cask "font-cascadia-code"
-# Developer targeted fonts with a high number of glyphs
 cask "font-caskaydia-cove-nerd-font"
-# Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
 # Desktop client for GitHub repositories
 cask "github"
@@ -198,7 +199,7 @@ cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
 # Code editor
-cask "visual-studio-code-insiders"
+cask "visual-studio-code@insiders"
 # Rust-based terminal
 cask "warp"
 # Quick Look plugin for webp files
@@ -210,6 +211,7 @@ mas "Dropbox Passwords for Safari", id: 1558391686
 mas "Fantastical", id: 975937182
 mas "HP Smart", id: 1474276998
 mas "Keynote", id: 409183694
+mas "Microsoft Word", id: 462054704
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
@@ -218,11 +220,13 @@ mas "Slack", id: 803453959
 mas "Twitter", id: 1482454543
 mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
+mas "‎WhatsApp", id: 310633997
 vscode "aaron-bond.better-comments"
 vscode "albert.tabout"
 vscode "alefragnani.project-manager"
 vscode "batisteo.vscode-django"
 vscode "belfz.search-crates-io"
+vscode "charliermarsh.ruff"
 vscode "christian-kohler.path-intellisense"
 vscode "codezombiech.gitignore"
 vscode "cssho.vscode-svgviewer"
@@ -233,11 +237,11 @@ vscode "donjayamanne.python-environment-manager"
 vscode "donjayamanne.python-extension-pack"
 vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
+vscode "fill-labs.dependi"
 vscode "github.codespaces"
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.copilot-labs"
-vscode "github.heygithub"
 vscode "github.remotehub"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
@@ -252,7 +256,10 @@ vscode "mechatroner.rainbow-csv"
 vscode "mhutchie.git-graph"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
+vscode "ms-python.flake8"
 vscode "ms-python.isort"
+vscode "ms-python.mypy-type-checker"
+vscode "ms-python.pylint"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-toolsai.jupyter"
@@ -272,7 +279,6 @@ vscode "redhat.vscode-yaml"
 vscode "rreverser.llvm"
 vscode "rust-lang.rust-analyzer"
 vscode "sdras.night-owl"
-vscode "serayuzgur.crates"
 vscode "sissel.shopify-liquid"
 vscode "sumneko.lua"
 vscode "tamasfe.even-better-toml"

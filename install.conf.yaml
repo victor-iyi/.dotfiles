@@ -13,6 +13,7 @@
     ~/.gitignore_global: home/gitignore_global
     ~/.hyper.js: home/hyper.js
     ~/.p10k.zsh: home/p10k.zsh
+    ~/.pypirc: home/pypirc
     ~/.ripgreprc: home/ripgreprc
     ~/.tmux.conf: home/tmux.conf
     ~/.vimrc: home/vimrc

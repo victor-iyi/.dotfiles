@@ -216,11 +216,17 @@ if [ -f "$HOME/.bin/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/.bin/google-
 # The next line enables shell command completion for gcloud.
 if [ -f "$HOME/.bin/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/.bin/google-cloud-sdk/completion.zsh.inc"; fi
 
-# Starship
-eval "$(starship init zsh)"
-
 # Atuin setup
 # eval "$(atuin init zsh)"
+
+# UV
+eval "$(uv generate-shell-completion zsh)"
+
+# UVX
+eval "$(uvx --generate-shell-completion zsh)"
+
+# Starship
+eval "$(starship init zsh)"
 
 # Pyenv setup.
 # export PYENV_ROOT="$HOME/.pyenv"

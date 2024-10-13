@@ -45,3 +45,6 @@ alias cat='bat --theme="Visual Studio Dark+" --color=always'
 alias bathelp='bat --plain --language=help'
 alias ls='exa -lFh --git'    # append / to end of directories and * to executables.
 alias tree='tree -C'         # turn on colorization for tree output
+
+# Clean installed Python packages.
+alias venvclean='pip freeze | cut -d "@" -f 1 | xargs pip uninstall -y'

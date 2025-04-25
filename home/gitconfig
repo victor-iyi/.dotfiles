@@ -1,16 +1,18 @@
 [user]
 	email = javafolabi@gmail.com
 	name = Victor I. Afolabi
-	signingKey = ""
+	signingkey = 984AEF2CA88B6F3B
 
 [gpg]
-	program = gpg
+	program = /usr/local/bin/gpg
+	format = openpgp
 
 [commit]
-	gpgSign = false
+	gpgsign = true
 
 [tag]
 	forceSignAnnotated = false
+	gpgsign = true
 
 # Requires `brew install git-delta` or `cargo install git-delta`.
 [interactive]
@@ -50,3 +52,14 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[gpg "ssh"]
+	program = ssh-keygen
+	allowedSignersFile =
+[rerere]
+	enabled = true
+[maintenance]
+	repo = /Users/victor/work/vennote/AuroraNLP
+[alias]
+	wta = worktree add
+	wtl = worktree list
+	wtr = worktree remove

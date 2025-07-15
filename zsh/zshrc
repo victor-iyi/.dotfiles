@@ -234,6 +234,12 @@ eval "$(starship init zsh)"
 # eval "$(pyenv init -)"
 # eval "$(pyenv virtualenv-init -)"
 
+# Git setup
+# ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+# ssh-add --apple-use-keychain ~/.ssh/id_ed25519_vennote
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 test -e /Users/victor/.iterm2_shell_integration.zsh && source /Users/victor/.iterm2_shell_integration.zsh || true
+
+source "$HOME/.local/bin/env"

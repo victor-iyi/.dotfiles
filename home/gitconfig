@@ -57,8 +57,8 @@
 	allowedSignersFile =
 [rerere]
 	enabled = true
-[maintenance]
-	repo = /Users/victor/work/vennote/AuroraNLP
+; [maintenance]
+; 	repo = /Users/victor/work/vennote/AuroraNLP
 [alias]
 	wta = worktree add
 	wtl = worktree list

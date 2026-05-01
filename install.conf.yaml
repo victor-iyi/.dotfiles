@@ -39,6 +39,7 @@
     - ~/dev
     - ~/.vim/undodir
     - ~/.zsh_functions
+    - ~/.zfunc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

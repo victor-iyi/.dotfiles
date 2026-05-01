@@ -49,3 +49,4 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export HISTCONTROL=ignoreboth
 export HISTSIZE=5000
 export HISTIGNORE="clear:cd:cd ~:cd ..:* --help:ls:ls -la:ll:ls -lhs"
+. "$HOME/.cargo/env"

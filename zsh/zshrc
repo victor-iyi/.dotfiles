@@ -148,6 +148,7 @@ antigen apply
 # https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh
 FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 fpath+="~/.zsh_functions"
+fpath+="~/.zfunc"
 
 # autoload -U compinit && compinit
 

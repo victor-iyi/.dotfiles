@@ -3,12 +3,20 @@
 
 # Python
 venv/
+.venv/
 
 # Rust
 target/
+
+# Cursor
+.cursor/
 
 # VSCode
 .vscode/
 
 # Vim
 .vim/
+
+# Cluade
+.claude/
+# CLAUDE.md

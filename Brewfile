@@ -1,7 +1,5 @@
 tap "ellie/atuin"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 tap "homebrew/services"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew "antigen"
@@ -29,15 +27,11 @@ brew "pkgconf"
 brew "dotbot"
 # More intuitive version of du in rust
 brew "dust"
+# Modern, maintained replacement for ls
+brew "eza"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
-# OpenType text shaping engine
-brew "harfbuzz"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c@76"
-# OCR (Optical Character Recognition) engine
-brew "tesseract"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
@@ -45,6 +39,8 @@ brew "gh"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Generic library support script
@@ -55,13 +51,15 @@ brew "graphviz"
 brew "grex"
 # Numerical library for C and C++
 brew "gsl"
-# Post-modern modal text editor
-brew "helix"
 # Kubernetes package manager
 brew "helm"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@76"
+# Safe and concurrent object-oriented programming language
+brew "inko"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Platform built on V8 to build network applications
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Interactive environments for writing and running code
 brew "jupyterlab"
@@ -77,16 +75,10 @@ brew "lua"
 brew "luajit-openresty"
 # Mac App Store command-line interface
 brew "mas"
-# Safe, concurrent, practical language
-brew "rust"
-# Build and publish Rust crates as Python packages
-brew "maturin"
-# Parser generator tool and incremental parsing library
-brew "tree-sitter"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Modern shell for the GitHub era
-brew "nushell"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
 # Toolkit for 3D computer graphics, image processing, and visualization
 brew "vtk"
 # Open source computer vision library
@@ -95,8 +87,6 @@ brew "opencv"
 brew "openjdk"
 # Python package management tool
 brew "poetry"
-# Object-relational database system
-brew "postgresql@14"
 # Framework for managing multi-language pre-commit hooks
 brew "pre-commit"
 # Modern replacement for ps written in Rust
@@ -113,8 +103,6 @@ brew "ripgrep"
 brew "ruff"
 # Language Server Protocol implementation for Ruff
 brew "ruff-lsp"
-# Experimental Rust compiler front-end for IDEs
-brew "rust-analyzer"
 # Intuitive find & replace CLI
 brew "sd"
 # Cross-shell prompt for astronauts
@@ -129,6 +117,8 @@ brew "tmux"
 brew "tokei"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Incremental parsing library
+brew "tree-sitter"
 # Build, bundle & ship your Rust WASM application to the web
 brew "trunk"
 # Extremely fast Python package installer and resolver, written in Rust
@@ -145,41 +135,33 @@ brew "zsh"
 cask "adobe-acrobat-reader"
 # GPU-accelerated terminal emulator
 cask "alacritty"
-# Application launcher and productivity software
-cask "alfred"
-# Communications service
-cask "amazon-chime"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
 # App to build and share containerised applications and microservices
-cask "docker"
+cask "docker-desktop"
 # Online diagram software
 cask "drawio"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
-# Share your work and ideas with video messages and screenshots
-cask "dropbox-capture"
-# VPN client for secure internet access and private browsing
+# VPN client for secure and private internet access
 cask "expressvpn"
 cask "font-cascadia-code"
 cask "font-caskaydia-cove-nerd-font"
 cask "font-fira-code-nerd-font"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
 # Desktop client for GitHub repositories
 cask "github"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
-# Set of tools to manage resources and applications hosted on Google Cloud
-cask "google-cloud-sdk"
 # Client for the Google Drive storage service
 cask "google-drive"
 # Terminal built on web technologies
 cask "hyper"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# App to manage software development and track bugs
-cask "linear-linear"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # App to write, plan, collaborate, and get organised
@@ -210,14 +192,14 @@ cask "warp"
 cask "webpquicklook"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "Azure VPN Client", id: 1553936137
 mas "CodeRunner", id: 955297617
 mas "Dropbox Passwords for Safari", id: 1558391686
-mas "HP Smart", id: 1474276998
+mas "HP", id: 1474276998
 mas "Keynote", id: 409183694
 mas "Microsoft Word", id: 462054704
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Perplexity", id: 6714467650
 mas "Slack", id: 803453959
 mas "WhatsApp", id: 310633997
 mas "Xcode", id: 497799835
@@ -238,10 +220,9 @@ vscode "donjayamanne.python-extension-pack"
 vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
 vscode "fill-labs.dependi"
+vscode "github.classroom"
 vscode "github.codespaces"
-vscode "github.copilot"
 vscode "github.copilot-chat"
-vscode "github.copilot-labs"
 vscode "github.remotehub"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
@@ -250,11 +231,14 @@ vscode "gruntfuggly.todo-tree"
 vscode "huizhou.githd"
 vscode "k--kato.intellij-idea-keybindings"
 vscode "kevinrose.vsc-python-indent"
-vscode "kiteco.kite"
 vscode "magicstack.magicpython"
 vscode "mechatroner.rainbow-csv"
 vscode "mhutchie.git-graph"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
+vscode "ms-dotnettools.csdevkit"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
 vscode "ms-python.debugpy"
 vscode "ms-python.isort"
 vscode "ms-python.pylint"
@@ -270,6 +254,7 @@ vscode "ms-vscode.azure-repos"
 vscode "ms-vscode.live-server"
 vscode "ms-vscode.remote-repositories"
 vscode "ms-vscode.vscode-speech"
+vscode "ms-vsliveshare.vsliveshare"
 vscode "njpwerner.autodocstring"
 vscode "pkief.material-icon-theme"
 vscode "rebornix.toggle"
@@ -282,8 +267,6 @@ vscode "sumneko.lua"
 vscode "tamasfe.even-better-toml"
 vscode "teabyii.ayu"
 vscode "vadimcn.vscode-lldb"
-vscode "visualstudioexptteam.intellicode-api-usage-examples"
-vscode "visualstudioexptteam.vscodeintellicode"
 vscode "vscode-icons-team.vscode-icons"
 vscode "vscodevim.vim"
 vscode "waderyan.gitblame"
@@ -293,3 +276,12 @@ vscode "xaver.clang-format"
 vscode "ymotongpoo.licenser"
 vscode "yzhang.markdown-all-in-one"
 vscode "ziyasal.vscode-open-in-github"
+go "github.com/go-delve/delve/cmd/dlv"
+go "github.com/ramya-rao-a/go-outline"
+go "github.com/fatih/gomodifytags"
+go "github.com/uudashr/gopkgs/v2/cmd/gopkgs"
+go "github.com/haya14busa/goplay/cmd/goplay"
+go "golang.org/x/tools/gopls"
+go "github.com/cweill/gotests/gotests"
+go "github.com/josharian/impl"
+go "honnef.co/go/tools/cmd/staticcheck"
